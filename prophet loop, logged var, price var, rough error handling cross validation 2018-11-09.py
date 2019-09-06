@@ -2,6 +2,9 @@
 """
 Created on Sun May 20 07:49:38 2018
 
+Description:
+This code uses Facebook's Prophet module to loop through time series data for several SKU's, adding price data where available.
+Data is log-transformed to make it weakly-stationary. Calendar and holiday effects are taken into account.
 """
 
 
