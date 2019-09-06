@@ -2,7 +2,6 @@
 """
 Created on Sun May 20 07:49:38 2018
 
-@author: JWeiz
 """
 
 
@@ -13,7 +12,7 @@ import numpy as np
 from fbprophet import Prophet
 from fbprophet.diagnostics import cross_validation
 
-os.chdir('C:\Users\jweiz\Python Working folder\prophet')
+os.chdir('type working folder here')
 file = '852 DC_SKU DATA.xlsx'
 
 #this section uses a pivot function to make the demand vertical
